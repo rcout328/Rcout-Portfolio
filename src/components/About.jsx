@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col mt-20 ml-10">
+      <div className="flex flex-col mt-20 ml-80">
         <div className="flex flex-row text-8xl font-bold mt-3">
           <span>About me</span>
           <span className="text-[#6E00F2]">.</span>
@@ -17,7 +17,7 @@ const About = () => {
             and that's why I give my all in every new challenge.
           </p>
         </div>
-        <div className="flex flex-row text-7xl font-bold mt-20">
+        <div className="flex flex-row text-7xl font-bold mt-20 mr-80">
           <span>My Stack</span>
           <span className="text-[#6E00F2]">.</span>
         </div>

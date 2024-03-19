@@ -6,7 +6,7 @@ const Projectsmain = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col ml-10 mr-10 mt-40">
+      <div className="flex flex-col ml-80 mr-80 mt-40">
         <div className="flex flex-row text-8xl font-bold mt-3 gap-4">
           <span>My</span>
           <span className="text-[#6E00F2]">Best</span>
