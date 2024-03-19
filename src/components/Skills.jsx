@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div className="flex flex-col ml-10 mr-10 mt-20">
+    <div className="flex flex-col ml-80 mr-80 mt-20">
       <div className="flex flex-row text-7xl font-bold">
         <span>Skills</span>
         <span className="text-[#6E00F2]">.</span>

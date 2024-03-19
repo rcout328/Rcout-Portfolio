@@ -3,7 +3,7 @@ import { CiInstagram, CiLinkedin } from "react-icons/ci";
 import { VscGithubAlt } from "react-icons/vsc";
 const Footer = () => {
   return (
-    <div className="flex flex-row ml-10 mt-20 mb-20">
+    <div className="flex flex-row ml-80 mt-20 mb-20">
       <div className="flex flex-col">
         <div className="flex flex-row mb-20 mt-5">
           <ul className="text-2xl flex flex-row font-medium gap-5 ">
@@ -17,7 +17,7 @@ const Footer = () => {
               About
             </Link>
           </ul>
-          <div className="flex flex-row absolute right-0 mr-10 gap-3">
+          <div className="flex flex-row absolute right-0 mr-80 gap-3">
             <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
               <CiLinkedin size={40} />
             </a>
@@ -34,15 +34,19 @@ const Footer = () => {
           <h1 className="text-[#6E00F2]">?</h1>
         </div>
         <div className="mt-5">
-          <button className="bg-[#6E00F2] text-white p-4 font-bold rounded-lg text-xl">
-            Get In Touch
-          </button>
-          <button className="bg-white text-blacks border border-black ml-5 p-4 font-bold rounded-lg text-xl">
-            Browse Projects
-          </button>
+          <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
+            <button className="bg-[#6E00F2] text-white p-4 font-bold rounded-lg text-xl">
+              Get In Touch
+            </button>
+          </a>
+          <Link to="/project">
+            <button className="bg-white text-blacks border border-black ml-5 p-4 font-bold rounded-lg text-xl">
+              Browse Projects
+            </button>
+          </Link>
         </div>
       </div>
-      <div className="flex flex-col text-xl absolute right-0 mr-10 mt-40">
+      <div className="flex flex-col text-xl absolute right-0 mr-80 mt-40">
         <h1>©2023 All Rights Reserved.</h1>
         <h1>Made with 💜 by Rc0ut</h1>
       </div>

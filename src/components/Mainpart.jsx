@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 const Mainpart = () => {
   return (
-    <div className="flex flex-col ml-10 mt-40">
+    <div className="flex flex-col ml-80 mt-40">
       <span className="text-3xl font-light">Hey,I'm Rc0ut</span>
       <div className="flex flex-row text-8xl font-bold mt-3">
         <span className="text-[#6E00F2]">Front</span>
@@ -11,12 +13,16 @@ const Mainpart = () => {
         websites your users will love.
       </p>
       <div className="mt-8">
-        <button className="bg-[#6E00F2] text-white p-4 font-bold rounded-lg text-xl">
-          Get In Touch
-        </button>
-        <button className="bg-white text-blacks border border-black ml-5 p-4 font-bold rounded-lg text-xl">
-          Browse Projects
-        </button>
+        <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
+          <button className="bg-[#6E00F2] text-white p-4 font-bold rounded-lg text-xl">
+            Get In Touch
+          </button>
+        </a>
+        <Link to="/project">
+          <button className="bg-white text-blacks border border-black ml-5 p-4 font-bold rounded-lg text-xl">
+            Browse Projects
+          </button>
+        </Link>
       </div>
       <div className="flex flex-row items-center justify-center mt-20">
         <img
