@@ -4,7 +4,7 @@ import { VscGithubAlt } from "react-icons/vsc";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col  justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center  phone:mt-20 mid:mt-20 mid:flex-col mid:flex mid:justify-center mid:items-center mac:mt-20 mac:flex-col mac:flex mac:justify-center mac:items-center mal:mt-20 mal:flex-col mal:flex  mal:justify-center mal:items-center mad:flex mad:flex-row mad:ml-20 mad:mr-20 mad:mt-20">
+    <div className="flex flex-col  justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center  phone:mt-20 mid:mt-20 mid:flex-col mid:flex mid:justify-center mid:items-center mac:mt-20 mac:flex-col mac:flex mac:justify-center mac:items-center mal:mt-20 mal:flex-col mal:flex  mal:justify-center mal:items-center mad:flex mad:flex-row mad:ml-20 mad:mr-20 mad:mt-20 mb-20">
       {/* Footer navigation */}
       <div className="flex flex-col  mac:flex mac:items-center mal:flex mal:item-center">
         <ul className="flex flex-row  text-2xl font-medium gap-5 mb-10 mad:mb-20 mad:mt-5">
