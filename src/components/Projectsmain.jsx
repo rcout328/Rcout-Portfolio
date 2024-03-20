@@ -23,10 +23,10 @@ const Projectsmain = () => {
           </div>
           <span>Creations</span>
         </div>
-        <p className="text-3xl mt-5 phone:text-xl phone:text-black/80">
+        <h1 className="text-3xl mt-5 phone:text-xl phone:text-black/80">
           Designing and Developing Robust and Stylish Web Applications for a
           Decade and Counting
-        </p>
+        </h1>
         <ProjectCard1
           image={"https://i.ibb.co/SNRwtp1/Frame-30.png"}
           title={"Netflix clone"}
