@@ -8,7 +8,7 @@ import Skills from "./Skills";
 const Home = () => {
   return (
     <div>
-      <div className="phone:hidden overflow-scroll">
+      <div className="phone:hidden mid:hidden overflow-scroll">
         <Navbar />
       </div>
       <MobileNavbar />

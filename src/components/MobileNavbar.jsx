@@ -11,12 +11,12 @@ const MobileNavbar = () => {
   return (
     <>
       <nav className="bg-[#0A0A0D] border-gray-200 dark:bg-gray-900 text-white  xl:h">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 phone:bg-white">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 phone:bg-white mid:bg-white">
           <Link
             to="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <span className="self-center text-2xl font-semibold whitespace-nowrap  phone:text-black phone:text-xl">
+            <span className="self-center text-2xl font-semibold whitespace-nowrap  phone:text-black phone:text-xl mid:text-black mid:text-xl">
               Rc0ut
             </span>
           </Link>
@@ -50,11 +50,11 @@ const MobileNavbar = () => {
             } w-full md:block md:w-auto`}
             id="navbar-default"
           >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg phone:bg-white phone:text-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white text-white mac:bg-black mac:text-white phone:font-bold phone:text-2xl">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg phone:bg-white phone:text-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white text-white mac:bg-black mid:text-black mac:text-white phone:font-bold phone:text-2xl mid:font-bold mid:text-2xl">
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-[#6E00F2]"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-[#6E00F2] mid:text-[#6E00F2]"
                   aria-current="page"
                 >
                   Home
@@ -63,7 +63,7 @@ const MobileNavbar = () => {
               <li>
                 <Link
                   to="/project"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2]"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-black"
                   aria-current="page"
                 >
                   Projects
@@ -72,7 +72,7 @@ const MobileNavbar = () => {
               <li>
                 <Link
                   to="/about"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2]"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-black"
                   aria-current="page"
                 >
                   About
@@ -81,7 +81,7 @@ const MobileNavbar = () => {
               <li>
                 <a
                   href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2]"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-black"
                   aria-current="page"
                 >
                   Get In Touch

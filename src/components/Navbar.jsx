@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
       <div className="flex flex-row h-full">
         <div className="h-full flex flex-row ">
-          <h1 className="text-2xl font-medium mt-5 ml-10 phone:text-4xl">
+          <h1 className="text-2xl font-medium mt-5 ml-10 phone:text-4xl mid:text-4xl">
             Rc0ut
           </h1>
           <div className="flex flex-row justify-center absolute top-0 right-0 mt-5 mr-10">

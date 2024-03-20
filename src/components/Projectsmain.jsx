@@ -6,24 +6,25 @@ import ProjectCard1 from "./ProjectCard1";
 const Projectsmain = () => {
   return (
     <>
-      <div className="phone:hidden">
+      <div className="phone:hidden mid:hidden">
         <Navbar />
       </div>
       <MobileNavbar />
-      <div className="flex flex-col ml-10 mr-10 mt-40 phone:mt-20 phone:mr-5 phone:ml-5">
-        <div className="flex flex-row text-8xl font-bold mt-3 gap-4 phone:hidden">
+      <div className="flex flex-col ml-10 mr-10 mt-40 phone:mt-20 phone:mr-5 phone:ml-5 mid:mt-20 mid:mr-5 mid:ml-5">
+        <div className="flex flex-row text-8xl font-bold mt-3 gap-4 phone:hidden mid:hidden">
           <span>My</span>
           <span className="text-[#6E00F2]">Best</span>
           <span>Creations</span>
         </div>
-        <div className="flex flex-col text-8xl font-bold mt-3  phone:text-6xl">
+        <div className="flex flex-col text-8xl font-bold mt-3  phone:text-6xl mid:text-6xl">
           <div className="flex flex-row gap-2 phone:text-6xl">
             <span>My</span>
             <span className="text-[#6E00F2]">Best</span>
+            <span className="phone:hidden">Creations</span>
           </div>
-          <span>Creations</span>
+          <span className="mid:hidden">Creations</span>
         </div>
-        <h1 className="text-3xl mt-5 phone:text-xl phone:text-black/80">
+        <h1 className="text-3xl mt-5 phone:text-xl phone:text-black/80 mid:text-xl">
           Designing and Developing Robust and Stylish Web Applications for a
           Decade and Counting
         </h1>

@@ -4,7 +4,7 @@ import { VscGithubAlt } from "react-icons/vsc";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center md:items-center mx-5 md:mx-10 my-10 md:my-20 phone:mt-20 ">
+    <div className="flex flex-col md:flex-row justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center md:items-center mx-5 md:mx-10 my-10 md:my-20 phone:mt-20 mid:mt-20 mid:flex-col mid:flex mid:justify-center mid:items-center">
       {/* Footer navigation */}
       <div className="flex flex-col md:flex-row md:items-center">
         <ul className="flex flex-row md:flex-row text-2xl font-medium gap-5 mb-10 md:mb-0">
@@ -18,7 +18,7 @@ const Footer = () => {
             About
           </Link>
         </ul>
-        <div className="flex flex-row gap-3 phone:flex phone:flex-row phone:justify-center phone:items-center">
+        <div className="flex flex-row gap-3 phone:flex phone:flex-row phone:justify-center phone:items-center mid:flex mid:flex-row mid:justify-center mid:items-center">
           <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
             <CiLinkedin size={40} />
           </a>
@@ -32,17 +32,19 @@ const Footer = () => {
       </div>
 
       {/* Call to action */}
-      <div className="flex flex-col md:flex-row items-center gap-3 md:gap-5 phone:mt-10">
-        <div className="flex flex-col md:flex-row items-center text-xl phone:flex phone:flex-row phone:gap-2  ">
+      <div className="flex flex-col md:flex-row items-center gap-3 md:gap-5 phone:mt-10 mid:mt-10">
+        <div className="flex flex-col md:flex-row items-center text-xl phone:flex phone:flex-row phone:gap-2   mid:flex mid:flex-row mid:gap-2">
           <h1 className="md:text-3xl">Interested in working together </h1>
           <h1 className="md:text-3xl text-[#6E00F2]">?</h1>
         </div>
         <div className="flex">
-          <button className="bg-[#6E00F2] text-white p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl ">
-            Get In Touch
+          <button className="bg-[#6E00F2] text-white p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl mid:p-3 mid:text-sm">
+            <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
+              Get In Touch
+            </a>
           </button>
-          <button className="bg-white text-blacks border border-black ml-5 p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl">
-            Browse Projects
+          <button className="bg-white text-blacks border border-black ml-5 p-4 phone:p-3 phone:text-sm mid:p-3 mid:text-sm font-bold rounded-lg text-xl">
+            <Link to="/project">Browse Projects</Link>
           </button>
         </div>
       </div>
