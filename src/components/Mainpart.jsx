@@ -2,29 +2,35 @@ import { Link } from "react-router-dom";
 
 const Mainpart = () => {
   return (
-    <div className="flex flex-col ml-80 mt-40">
+    <div className="flex flex-col ml-10 mt-40 phone:mt-20 min-h-screen relative phone:ml-5">
       <span className="text-3xl font-light">Hey,I'm Rc0ut</span>
-      <div className="flex flex-row text-8xl font-bold mt-3">
+      <div className="flex flex-row text-8xl font-bold mt-3 phone:hidden">
         <span className="text-[#6E00F2]">Front</span>
         <span>end Developer</span>
       </div>
-      <p className="text-3xl mt-10 font-normal">
+      <div className="flex flex-row text-6xl font-bold mt-3 phone:mr-5">
+        <span className="text-[#6E00F2]">Front</span>
+        <span>end</span>
+      </div>
+      <span className="text-6xl font-bold mt-3 phone:mr-5 phone:mt-0">
+        Developer
+      </span>
+
+      <p className="text-3xl mt-10 font-normal phone:text-xl phone:font-light phone:mt-8 phone:mr-5">
         I'm a frontend developer based in Italy, I'll help you build beautiful
         websites your users will love.
       </p>
-      <div className="mt-8">
-        <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
-          <button className="bg-[#6E00F2] text-white p-4 font-bold rounded-lg text-xl">
+      <div className="mt-8 phone:mt-6">
+        <button className="bg-[#6E00F2] text-white p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl ">
+          <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
             Get In Touch
-          </button>
-        </a>
-        <Link to="/project">
-          <button className="bg-white text-blacks border border-black ml-5 p-4 font-bold rounded-lg text-xl">
-            Browse Projects
-          </button>
-        </Link>
+          </a>
+        </button>
+        <button className="bg-white text-blacks border border-black ml-5 p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl">
+          <Link to="/project">Browse Projects</Link>
+        </button>
       </div>
-      <div className="flex flex-row items-center justify-center mt-20">
+      <div className="flex flex-row items-center justify-center mt-20 phone:mr-10 phone:ml-5">
         <img
           src="https://i.ibb.co/KXHPcF7/unnamed-modified.jpg"
           height={600}
