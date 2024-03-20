@@ -11,7 +11,7 @@ const Home = () => {
       <div className="phone:hidden mid:hidden mac:hidden overflow-scroll">
         <Navbar />
       </div>
-      <div className="mal:hidden">
+      <div className="mal:hidden mad:hidden">
         <MobileNavbar />
       </div>
 
