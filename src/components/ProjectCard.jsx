@@ -1,18 +1,41 @@
-// eslint-disable-next-line react/prop-types
-const ProjectCard = ({ image, title, desc, link }) => {
+import ProjectCard from "./ProjectCard";
+
+const Projects = () => {
   return (
-    <div className="flex flex-col">
-      <a href={link}>
-        <img
-          src={image}
-          className="w-full rounded-2xl mt-10 phone:w-full phone:h-80 md:h-100 phone:object-cover"
-          alt={title} // Don't forget alt attribute for accessibility
+    <section className="flex flex-col ml-10 mr-10 mt-20 phone:mr-5 phone:ml-5">
+      <div className="flex flex-row text-7xl font-bold phone:text-5xl">
+        <span>Projects</span>
+        <span className="text-[#6E00F2]">.</span>
+      </div>
+      <div>
+        {/* Individual project cards */}
+        <ProjectCard
+          image={"https://i.ibb.co/SNRwtp1/Frame-30.png"}
+          title={"Netflix clone"}
+          desc={
+            "Task management system with drag-and-drop, real-time collaboration, and responsive layout."
+          }
+          link={"https://netflix-clone-puce-five-56.vercel.app/"}
         />
-        <h1 className="text-3xl font-bold ml-2 mt-8 phone:text-2xl">{title}</h1>
-        <p className="ml-2 text-2xl font-normal mt-3 phone:text-xl">{desc}</p>
-      </a>
-    </div>
+        <ProjectCard
+          image={"https://i.ibb.co/tDmgNK4/Frame-31.png"}
+          title={"DALLE-2 clone"}
+          desc={
+            "Task management system with drag-and-drop, real-time collaboration, and responsive layout."
+          }
+          link={"https://dalle-2-clone.vercel.app/"}
+        />
+        <ProjectCard
+          image={"https://i.ibb.co/TLmjqhx/Frame-31.png"}
+          title={"Social AI"}
+          desc={
+            "Task management system with drag-and-drop, real-time collaboration, and responsive layout."
+          }
+          link={"https://socialai-three.vercel.app/"}
+        />
+      </div>
+    </section>
   );
 };
 
-export default ProjectCard;
+export default Projects;
