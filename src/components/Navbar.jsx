@@ -10,13 +10,13 @@ const Navbar = () => {
           </h1>
           <div className="flex flex-row justify-center absolute top-0 right-0 mt-5 mr-10">
             <ul className="text-2xl flex flex-row font-medium gap-5 ">
-              <Link className="hover:text-[#6E00F2]" to="/">
+              <Link className="hover:text-purple" to="/">
                 Home
               </Link>
-              <Link className="hover:text-[#6E00F2]" to="/project">
+              <Link className="hover:text-purple" to="/project">
                 Projects
               </Link>
-              <Link className="hover:text-[#6E00F2]" to="/about">
+              <Link className="hover:text-purple" to="/about">
                 About
               </Link>
             </ul>

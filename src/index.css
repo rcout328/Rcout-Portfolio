@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .content-size {
+    @apply flex flex-col ml-10 mt-40 phone:mt-20 min-h-screen relative phone:ml-5 mid:mt-20 mid:ml-5  mac:mt-20 mac:ml-5  mad:mt-20 mad:ml-20 mad:mr-20;
+  }
+
+  .nav-hide {
+    @apply phone:hidden mid:hidden mac:hidden;
+  }
+
+  .mob-hide {
+    @apply mal:hidden mad:hidden;
+  }
+
+  .text1 {
+    @apply flex flex-row text-8xl font-bold mt-3 phone:hidden mid:hidden mac:text-6xl mal:text-7xl;
+  }
+
+  .text2 {
+    @apply flex flex-row text-6xl font-bold mt-3 phone:mr-5 mid:mr-5 mac:hidden mal:hidden mad:hidden;
+  }
+
+  .text3 {
+    @apply text-6xl font-bold mt-3 phone:mr-5 phone:mt-0 mid:mr-5 mac:hidden mal:hidden mad:hidden;
+  }
+
+  .text4 {
+    @apply text-3xl mt-10 font-normal phone:text-xl phone:font-light phone:mt-8 phone:mr-5 mid:text-xl mid:font-light mid:mt-8 mid:mr-5 mac:text-xl mac:mr-5 mac:mt-5 mal:mr-5 mal:text-2xl mad:text-2xl mad:mt-5 mad:line-clamp-2;
+  }
+
+  .btn1 {
+    @apply bg-purple text-white p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl mid:p-3 mid:text-sm mac:p-3 mac:text-sm mal:p-3 mal:text-sm;
+  }
+
+  .btn2 {
+    @apply bg-white text-black border border-black ml-5 p-4 phone:p-3 phone:text-sm mid:p-3 mid:text-sm font-bold rounded-lg text-xl mac:p-3 mac:text-sm mal:p-3 mal:text-sm;
+  }
+
+  .maintext {
+    @apply flex flex-row text-8xl font-bold mt-10 phone:text-6xl mid:text-6xl mac:text-6xl mal:text-7xl mad:text-7xl gap-3;
+  }
+
+  .projmain {
+    @apply flex flex-col ml-10 mr-10 mt-20 phone:mr-5 phone:ml-5 mid:ml-5 mid:mr-5 mac:ml-5 mac:mr-5 mal:ml-5 mal:mr-5 mad:mt-10 mad:ml-20 mad:mr-20;
+  }
+
+  .skil {
+    @apply flex flex-col text-purple text-6xl font-bold mt-10 justify-center items-center gap-5 phone:text-4xl mid:text-4xl mac:text-4xl mal:text-5xl mad:text-5xl;
+  }
+
+  .mainfooter {
+    @apply flex flex-col  justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center  phone:mt-20 mid:mt-20 mid:flex-col mid:flex mid:justify-center mid:items-center mac:mt-20 mac:flex-col mac:flex mac:justify-center mac:items-center mal:mt-20 mal:flex-col mal:flex  mal:justify-center mal:items-center mad:flex mad:flex-row mad:ml-20 mad:mr-20 mad:mt-20 mb-20;
+  }
+}

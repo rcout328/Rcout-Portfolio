@@ -6,10 +6,10 @@ import ProjectCard1 from "./ProjectCard1";
 const Projectsmain = () => {
   return (
     <>
-      <div className="phone:hidden mid:hidden mac:hidden">
+      <div className="nav-hide">
         <Navbar />
       </div>
-      <div className="mal:hidden mad:hidden">
+      <div className="mob-hide">
         <MobileNavbar />
       </div>
       <div className="flex flex-col ml-10 mr-10 mt-40 phone:mt-20 phone:mr-5 phone:ml-5 mid:mt-20 mid:mr-5 mid:ml-5 mac:mt-20 mac:mr-5 mac:ml-5 mal:mt-20 mal:ml-5 mal:mr-5 mad:ml-20 mad:mr-20">

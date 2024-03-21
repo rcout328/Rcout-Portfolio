@@ -4,17 +4,17 @@ import { VscGithubAlt } from "react-icons/vsc";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col  justify-between items-start phone:flex phone:flex-col phone:items-center phone:justify-center  phone:mt-20 mid:mt-20 mid:flex-col mid:flex mid:justify-center mid:items-center mac:mt-20 mac:flex-col mac:flex mac:justify-center mac:items-center mal:mt-20 mal:flex-col mal:flex  mal:justify-center mal:items-center mad:flex mad:flex-row mad:ml-20 mad:mr-20 mad:mt-20 mb-20">
+    <div className="mainfooter">
       {/* Footer navigation */}
       <div className="flex flex-col  mac:flex mac:items-center mal:flex mal:item-center">
         <ul className="flex flex-row  text-2xl font-medium gap-5 mb-10 mad:mb-20 mad:mt-5">
-          <Link className="hover:text-[#6E00F2]" to="/">
+          <Link className="hover:text-purple" to="/">
             Home
           </Link>
-          <Link className="hover:text-[#6E00F2]" to="/project">
+          <Link className="hover:text-purple" to="/project">
             Projects
           </Link>
-          <Link className="hover:text-[#6E00F2]" to="/about">
+          <Link className="hover:text-purple" to="/about">
             About
           </Link>
         </ul>
@@ -35,15 +35,15 @@ const Footer = () => {
       <div className="flex flex-col s items-center gap-3  phone:mt-10 mid:mt-10 mac:mt-10 mad:mt-5">
         <div className="flex flex-col  items-center text-xl phone:flex phone:flex-row phone:gap-2   mid:flex mid:flex-row mid:gap-2 mac:flex mac:flex-row mac:gap-2 mal:flex mal:flex-row mal:gap-2 mal:mt-5 mad:flex mad:flex-col mad:font-medium mad:text-3xl mad:gap-3">
           <h1 className="md:text-2xl">Interested in working together </h1>
-          <h1 className="md:text-3xl text-[#6E00F2] mad:hidden">?</h1>
+          <h1 className="md:text-3xl text-purple mad:hidden">?</h1>
         </div>
         <div className="flex mad:mt-10">
-          <button className="bg-[#6E00F2] text-white p-4 phone:p-3 phone:text-sm font-bold rounded-lg text-xl mid:p-3 mid:text-sm mac:p-3 mac:text-sm mal:p-3 mal:text-sm mad:font-bold mad:rounded-lg mad:text-xl">
+          <button className="btn1">
             <a href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in">
               Get In Touch
             </a>
           </button>
-          <button className="bg-white text-blacks border border-black ml-5 p-4 phone:p-3 phone:text-sm mid:p-3 mid:text-sm font-bold rounded-lg text-xl mac:p-3 mac:text-sm mal:p-3 mal:text-sm mad:font-bold mad:rounded-lg mad:text-xl">
+          <button className="btn2">
             <Link to="/project">Browse Projects</Link>
           </button>
         </div>

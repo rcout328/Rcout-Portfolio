@@ -10,6 +10,10 @@ export default {
         mal: { min: "768px", max: "1175px" },
         mad: { min: "1175px", max: "2500px" },
       },
+      colors: {
+        white: "#Ffffff",
+        purple: "#6E00F2",
+      },
     },
   },
   plugins: [],

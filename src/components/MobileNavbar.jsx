@@ -10,7 +10,7 @@ const MobileNavbar = () => {
 
   return (
     <>
-      <nav className="bg-[#0A0A0D] border-gray-200 dark:bg-gray-900 text-white ">
+      <nav className=" border-gray-200 text-white ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto  p-4 phone:bg-white mid:bg-white mac:bg-white">
           <Link to="/" className="flex items-center space-x-3  ">
             <span className="self-center text-2xl font-semibold whitespace-nowrap  phone:text-black phone:text-xl mid:text-black mid:text-xl mac:text-black mac:text-xl">
@@ -51,7 +51,7 @@ const MobileNavbar = () => {
               <li>
                 <Link
                   to="/"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-[#6E00F2] mid:text-[#6E00F2] mac:text-[#6E00F2]"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-purple mid:text-purple mac:text-purple"
                   aria-current="page"
                 >
                   Home
@@ -60,7 +60,7 @@ const MobileNavbar = () => {
               <li>
                 <Link
                   to="/project"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-black mac:text-black"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-purple mid:text-black mac:text-black"
                   aria-current="page"
                 >
                   Projects
@@ -69,7 +69,7 @@ const MobileNavbar = () => {
               <li>
                 <Link
                   to="/about"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-black mac:text-black"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-purple mid:text-black mac:text-black"
                   aria-current="page"
                 >
                   About
@@ -78,7 +78,7 @@ const MobileNavbar = () => {
               <li>
                 <a
                   href="https://www.linkedin.com/in/varun-israni-a21022261/?originalSubdomain=in"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-[#6E00F2] mid:text-blackmac mid:text-black mac:text-black"
+                  className="block py-2 px-3 text-white rounded md:bg-transparent md:text-purple-500 md:p-0 phone:text-black hover:text-purple mid:text-black  mac:text-black"
                   aria-current="page"
                 >
                   Get In Touch
