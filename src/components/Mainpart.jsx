@@ -15,7 +15,7 @@ const Mainpart = () => {
       <span className="text3">Developer</span>
 
       <p className="text4">
-        I'm a frontend developer based in Italy, I'll help you build beautiful
+        I'm a frontend developer based in India, I'll help you build beautiful
         websites your users will love.
       </p>
       <div className="mt-8 phone:mt-6 mid:mt-6 mac:mt-6">
